@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+ 
+}
+a{
+  cursor: pointer; transition: all 200ms linear;
+}
+a, a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/*_______________________________________________________________________*/
+
+
+/*header */
+.m-right {
+    margin-left: auto!important;
+}
+
+.bg-light {
+    background-color: #07294D!important;
+}
+.navbar-brand img{
+	width: 200px;
+}
+
+.nav-item{
+	padding:10px 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+    font-weight: 600;
+    border-bottom: 1px solid #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255 255 255 / 100%);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    border-bottom: 1px solid #fff;
+    font-weight: 300;
+ }
+
+ .dropdown-menu{
+ 	background-color: #07294D;
+ 	color: #fff;
+ 	padding: 0;
+ 	border: 1px solid #fff;
+ 	border-radius: 5px;
+ }
+ .dropdown-item {
+    color: #ffffff;
+}
+.dropdown-item:nth-child(1),.dropdown-item:nth-child(2){
+    border-bottom: 1px solid #fff;
+
+}
+.dropdown-item:hover {
+    color: #07294D;
+    background-color: #fff;
+    font-weight: 300;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.7);
+}
+
+/*end Header style*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.Who__are_you{
+  background-image: url('../images/section(Who are we_).png');
+  background-size: cover;
+  color: #fff;
+  padding: 60px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+
+.title__Who__are__you{
+  margin-top: 40px;
+  font-size: 65px;
+}
+.text__who__are__you{
+  margin: 40px auto;
+  font-size: 35px;
+}
+
+.apply__now{
+  width: 215px;
+  padding:8px  20px; 
+  background-color: #fff;
+  margin: auto;
+  font-size: 22px;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+.apply__now a{
+  color: #07294D;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.apply__now a:hover{
+text-decoration: none;
+font-weight: 550;
+}
+.position__image__WAU{
+  width: 400px;
+  position: absolute;
+  bottom: -70px;
+}
+.position__image__WAU img{
+  width: 100%;
+
+}
+.left__posiotion{
+  left: 0;
+}
+.right__posiotion{
+  right:0;
+}
+
+.p60{
+	padding:60px 0;
+}
+/*How__Do__We__Learn
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.How__Do__We__Learn{
+background: rgb(161,199,240);
+background: linear-gradient(0deg, rgba(161,199,240,.56) 0%, rgba(255,255,255,1) 100%);
+
+}
+.Title__blocks{
+	text-align: center;
+}
+.Title__blocks h1{
+	  font-family: 'Montserrat', sans-serif;
+	  font-weight: 700;
+	  color: color: #07294D;
+	  text-transform: uppercase;
+	  font-size: 22px;
+	  cursor: pointer;
+	  position: relative;
+	  /*margin-bottom: 60px;*/
+}
+.Title__blocks h1::after{
+	content: " ";
+	position: absolute;
+	bottom: -10px;
+	left: 48%;
+	width: 60px;
+	border: 1px solid #072940;
+}
+.svg__icons__block{
+	text-align: center;
+}
+
+.svg__icons{
+width: 70px;
+margin:60px auto 30px;
+}
+ .svg__icons img{
+width: 100%;
+}
+.svg__icons__block h2{
+	font-size: 24px;
+}
+.svg__icons__block p{
+	font-size: 22px;
+}
+/*lozung box___________________________________*/
+.lozung__box{
+	background-color: #072940;
+	text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 35px;
+  /*line-height: 80px*/
+  padding: 20px 0;
+}
+/*
+-------------------------------------------------------*/
+.der__text{
+  margin: 30px 0;
+}
+.Our__Courses__box a, .Our__Projects__box a{
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 30px;
+  height: 140px;
+  display: block;
+}
+.Our__Courses__box a:hover,.Our__Projects__box a:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Our__Courses__box p, .Our__Projects__box p{
+  font-weight: 400;
+  color: #000;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.Our__Courses__box h3,
+.Our__Projects__box h3{
+  position: relative;
+  font-weight: 700;
+  font-size: 20px;
+  height: 80px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.span{
+  margin-right: 20px;
+  position: absolute;
+  bottom: 0px;
+  font-size: 12px;
+  font-weight: 450;
+}
+.month{
+  left: 15px;
+}
+.free{
+  right: 0;
+  color: #14CC8A;
+}
+.courses__img,
+.Projects__img{
+  text-align: right;
+}
+
+/*filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
+
+.Our__Team{
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(229,239,245,1) 0%, rgba(159,194,233,0.9108018207282913) 38%, rgba(250,250,250,1) 100%);
+}
+
+.Our__team__item{
+  border: 2px solid  #072940;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+
+.info__block{
+  background-color: rgba(7,41,64, 0.8);
+  width: 199px;
+  height: 199px;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  top: -2px;
+  left: 0;
+  text-align: center;
+  padding: 60px 10px 10px;
+  opacity: 0;
+  transition: .3s ease;
+ 
+}
+.FIO{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.doljnost{
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.social__medias li{
+  display: inline-block;
+}
+
+.social__medias__item{
+  display: block;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 5px;
+}
+
+a.social__medias__item img{
+  margin: auto ;
+}
+
+
+
+
+
+.Our__team__item:hover  .info__block{
+  opacity: 1;
+}
+
+/*interviews*/
+
+.Our__Team .col-lg-3, .Our__Team .col-md-6, .Our__Team .col-sm-12{
+  text-align: center;
+}
+
+/*.slick-prev:before, .slick-next:before {
+    opacity: 1;
+    color: #072940;
+
+}*/
+
+
+iframe{
+  width: 100%;
+}
+
+/*Interview*/
+
+.Interview__slider__item{
+  height: 200px;
+  width: 100%;
+  margin: 10px;
+  background-color: #F3F3F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Interview__slider__item iframe{
+  width: 100%;
+  height: 200px;
+}
+.theme__interview{
+  background-color: #F3F3F3;
+  padding: 10px;
+  font-size: 13px;
+}
+.lozung__interview{
+  background-color: #F3F3F3;
+  padding: 10px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+
+}
+.Interviews__block{
+  /*display: none;*/
+}
+
+.slick-prev:before, .slick-next:before {
+    opacity: 1;
+    color:  #072940 !important;
+}
+
+.Why__you__should__code{
+  border-radius: 10px;
+  overflow: hidden;
+  background-color:  #F3F3F3;
+  height: 280px;
+}
+.text__About__code{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 48px;
+  color: #000;
+  font-weight: 700;
+  padding-top: 50px ;
+  text-align: center;
+  }
+  .blue{
+    color: #2793e6;
+  }
+  .height__Block iframe{
+    height: 280px;
+}
+
+/*U find up there*/
+.You_find__us_there__box{
+  background-color: #082D55;
+  padding: 30px 0;
+  color: #fff;
+  margin-bottom: 60px;
+}
+.You_find__us_there{
+  display: flex;
+  justify-content: space-around;
+}
+
+.form__box input[type="text"]{
+  border:none;
+  border-bottom: 1px solid #07294D;
+  padding: 10px  0;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.form__box input:focus{
+  outline: none;
+}
+/*.inputName{
+  width: 100%;
+}*/
+
+.Agree_text{
+  color: #07294D;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.btn-send{
+  width: 200px;
+  background-color:  #07294D;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  line-height: 40px;
+  font-size: 20px;
+  padding: 5px 0;
+  border: 1px solid  transparent;
+}
+.btn-send:hover{
+  background-color:  #fff;
+  color: #07294D;
+  border: 1px solid  #07294D;
+
+  font-weight: 600;
+}
+.form__box__title{
+  font-size: 20px;
+  margin: 20px 0;
+  font-weight: 700;
+}
+.form__box__text{
+  font-size: 18px;
+}
+
+/*courses html styles_____________________________________*/
+.Our__Courses__Title__blocks{
+  text-align: center;
+  border-bottom: 1px solid  #07294D;
+  margin-bottom: 30px;
+}
+.Our__Courses__Title__blocks h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #07294D;
+    text-transform: uppercase;
+    font-size: 22px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/*footer*/
+.footer{
+  background-color:  #07294D;
+  color: #fff;
+  margin-top: 60px;
+  /*text-align: center;*/
+}
+
+.footer-brand img{
+  width: 50%;
+}
+.footer__title{
+  font-size: 16px;
+  margin:20px 0 ;
+  font-weight: 550;
+}
+
+
+footer ul li{
+  font-size: 14px;
+  /*text-align: justify;*/
+}
+ .borderBottom{
+  border-bottom: 1px solid #fff;
+ }
+.copy__Right{
+}
+.copy__Right p{
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+  font-size: 14px;
+}
+.footer__social__medias li{
+  display: inline-block;
+  margin: 10px;
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .navbar-light .navbar-nav .nav-link{
+  	margin-left: 5px; 
+  }
+
+  
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  
+/*Who are we?
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.Who__are__you{
+	padding-top: 10px;
+
+}
+.title__Who__are__you{
+  margin-top: 20px;
+  font-size:40px;
+}
+.text__who__are__you{
+  margin: 40px auto;
+  font-size: 25px;
+}
+
+.apply__now{
+  width: 150px;
+  font-size: 14px;
+
+}
+
+.position__image__WAU{
+  bottom: -45px;
+ width: 350px;
+
+
+}
+.position__image__WAU img{
+  width: 100%;
+
+}
+.left__posiotion {
+  left: 0;
+}
+.right__posiotion{
+  right: 0;
+}
+  
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+.navbar-light .navbar-nav .nav-item{
+    border-bottom: 1px solid #a7a9b1;
+    padding-left: 0;
+ }
+.navbar-light .navbar-nav .nav-item:last-child{
+	border: none;
+}
+.nav-link{
+ 	border: none;
+ }
+ .navbar-light .navbar-nav .active>.nav-link{
+	border: none;
+	font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+		font-weight: 600;
+	border: none;
+}
+.navbar-nav .dropdown-menu {
+    width: 140px;
+    margin-top: 5px;
+}
+
+
+.Who__are__you{
+	padding-top: 10px;
+
+}
+.title__Who__are__you{
+  margin-top: 20px;
+  font-size:40px;
+}
+.text__who__are__you{
+  margin: 40px auto;
+  font-size: 25px;
+}
+
+.apply__now{
+  width: 150px;
+  font-size: 14px;
+
+}
+
+.position__image__WAU{
+  bottom: -10px;
+
+
+}
+.position__image__WAU img{
+  width: 55%;
+
+}
+.left__posiotion {
+  left:-80px;
+}
+.right__posiotion{
+  left:51%;
+}
+
+
+
+/*__________________________________________________________*/
+.Why__you__should__code{
+  height: 458px;
+}
+.text__About__code{
+  padding: 20px;
+  font-size: 36px;
+  text-align: center;
+  }
+  .blue{
+    color: #07294D;
+  }
+  .height__Block iframe{
+    height: 280px;
+}
+footer{
+  /*text-align: center;*/
+}
+
+.footer-brand img{
+  width: 60%;
+  margin: auto;
+}
+footer ul li{
+  text-align: justify;
+}
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.navbar-light .navbar-nav .nav-item{
+    border-bottom: 1px solid #a7a9b1;
+    padding-left: 0;
+ }
+.navbar-light .navbar-nav .nav-item:last-child{
+	border: none;
+}
+.nav-link{
+ 	border: none;
+ }
+ .navbar-light .navbar-nav .active>.nav-link{
+	border: none;
+	font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+		font-weight: 600;
+	border: none;
+}
+.navbar-nav .dropdown-menu {
+    width: 140px;
+    margin-top: 5px;
+}
+  
+}
