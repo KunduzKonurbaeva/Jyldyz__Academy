@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jyldyz academy / Interviews</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/page_learning.css">
+</head>
+<body>
+	<div class="container__box">
+		<div class="title__container__box">
+			<div class="title__container__box__item"><p>1.2 Code implementation, program structure, comments.</p></div>
+			<div class="title__container__box__item">
+				<div class="btn-group mbo8px" role="group" aria-label="Button group with nested dropdown">
+				  <div class="btn-group" role="group">
+				    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				      Kunduz Konurbaeva
+				    </button>
+				    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+				      <a class="dropdown-item" href="#">Change your frofile</a>
+				      <a class="dropdown-item" href="#">Setting</a>
+				    </div>
+				  </div>
+				</div>
+			</div> 
+		</div>
+
+		<div class="content__container__box">
+			<p>Now let's look at what the JavaScript code consists of.</p>
+			<p>The main unit of the code is a <b>statement</b>.</p>
+			<p><b>A JavaScript statement</b> is actually a command to the browser, an indication of what needs to be done.</p>
+			<p>It is desirable to end the statement with a semicolon ";"</p>
+			<p>This is not a mandatory requirement, according to the standard it is assumed that the browser interprets End of line as the end of the statement. But the use of a semicolon at the end of a statement is considered a good programming practice, and besides it allows writing several statements on one line, which is, however, considered a bad style of coding.</p>
+			<p>It should also be noted that the absence of a semicolon at the end of the line in certain cases affects the behavior of the code, so you should not use this feature without actual need.</p>
+			<p><b>JavaScript code</b> is a sequence of JavaScript statements. Statements are executed by the browser in the order in which they are written.</p>
+			<p><b>JavaScript blocks</b> are a way to group statements together. Blocks are enclosed in curly brackets: "{" and "}".</p>
+			<p>Usually blocks are used to execute several commands in a function or inside a conditional construct, these points will be covered in the following lessons.</p>
+			<p>Now let's consider an example of placing <b>JavaScript<b> code </b>in a separate file</b>.</p>
+			<p>We will create a file called <b>myscript.js</b> and put our code into it:</p>
+			<pre>alert("<span class="green__color__text" >Hello World</span>");</pre>
+			<p>Calling the code from the body of the main HTML file will now look like this:</p>
+<pre>
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Code sample page with JavaScript&lt;/title&gt; 
+    &lt;script src="myscript.js"&gt;/<script type="text/javascript"></script>pt&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+       Text of the main page
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>	
+			<p>The advantages are obvious: any amount of JavaScript code can be called by one small command.</p>
+			<p>You can also add<b> comments</b> to the JavaScript code.</p>
+			<p>These are the lines marked in a special way, which are not considered as executable code by the browser. Thus, you can either make text comments or mark some pieces of code to prevent them from running during debugging.</p>
+			<p>Comments can be <b>single-line<b> or </b>multi-line</b>.</p>
+			<p><b>Single-line comments</b> begin with two slashes "//" and prevent the code execution on this line. Here is an example of using a single-line comment:</p>
+<pre>
+&lt;script&gt;<span class="red__color__text"> //  This is a text comment alert("Hello World");// This code will be executed. // alert("Hello World"); 
+But this code will not // It commented out </span>&lt;/script&gt;
+</pre>
+			<p><b>Multi-line comments</b> begin with one slash and an asterisk "/ *" and end with the reverse combination - an asterisk and a slash "* /". Everything that is written between these characters will be considered as a comment by the browser. It looks as follows:</p>
+<pre>
+&lt;script&gt;
+<span class="red__color__text"> /* Here isthe begin of comment
+alert("Hello World"); This code will not be executed.
+alert("Hello World"); And this one too.
+This is the end of comment */</span> 
+
+ alert("<span class="green__color__text">Hi World</span> "); // This code will be executed
+&lt;/script&gt;	
+</pre>
+			<p>Let's see how you learned this lesson! Check the boxes with correct statements!</p>
+				
+		</div>
+	</div>
+
+		
+
+
+	<script src="js/jquery-3.5.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js">	</script>
+</body>
+</html>
